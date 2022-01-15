@@ -177,14 +177,16 @@ nav{
 }
 @keyframes blinking{
     0%{
-        color: #994fc4;
+        color: #b17ad1;
     }
-    50%{
-        color:rgb(241, 149, 182);
+    40%{
+        color:rgb(216, 126, 159);
     }
-    60%,
+    70%{
+        color: #E02C6D;
+    }
     100%{
-        color: #994fc4;
+        color: #8947af;
     }
 }
 /* footer styles */
