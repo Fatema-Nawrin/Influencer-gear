@@ -48,6 +48,15 @@ nav{
 .banner-left h1{
     padding-top: 20px;
     font-size: 50px;
+    animation: slide 2s ease-in-out;
+}
+@keyframes slide{
+    from{
+        transform: scale(0.5,0.5);
+    }
+    to{
+        transform:scale(1,1);
+    }
 }
 .banner-left p{
     font-size: 16px;
